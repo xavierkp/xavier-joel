@@ -1,4 +1,4 @@
-#welcome-section{
+#welcome-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,13 +8,19 @@
     height: 50vh;
     width: 100%;
 }
-#welcome-section h1{
-    color:white;
+
+#welcome-section h1 {
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
 }
-#welcome-section p{
+
+#welcome-section p {
     color: pink;
     font-size: 20px;
     font-weight: lighter;
+}
+
+.project-tile {
+    border-bottom: 2px solid white;
 }
