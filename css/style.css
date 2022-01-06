@@ -8,6 +8,13 @@
     height: 100vh;
     width: 100%;
 }
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
 
 #welcome-section h1 {
     color: white;
@@ -23,4 +30,42 @@
 
 .project-tile {
     border-bottom: 2px solid white;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background:#333;
+}
+footer h1{
+    color: white;
+    font-weight: bold;
+}
+footer p{
+    color: white;
+}
+footer ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer div{
+    border-top: 3px solid rgb(180, 33, 57);
+}
+footer div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    padding-bottom: 40px;
 }
